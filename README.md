@@ -1,16 +1,16 @@
 ### Hi there 👋
 
-<!--
-**JoshuaOliphant/JoshuaOliphant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I think of myself as a generalist software engineer. Went back to school in 2012 at the ripe-ish age of 31 to get a BS in computer science, and I've gobbled up as much information as possible since then. 
 
-Here are some ideas to get you started:
+I started out at Nordstrom working on Java microservices. There's a section in the [DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/) about how our team led the DevOps transformation at Nordstrom. Basically, I've been into DevOps and microservices as soon as I stepped out of college. Eventually our team absorbed another team that were early adopters of Kubernetes, and when that part of our team granduated to being the platform team for all of Nordstrom, I happily followed. Recently, I listened to a [freeCodeCamp podcast episode](https://freecodecamp.libsyn.com/90-shawn-swyx-wang-from-dev-to-ai-founder) where at one point they talk about a hill climbing algorithm as a metaphor for the interviewee's career choices. That resonated with me because I felt like I was making that kind of choice when I switched to the Kubernetes team at Nordstrom. I had learned a lot about Java, the Spring Framework, and microservices, but then looked around and saw this Kubernetes thing, I new I had to be part of it. So I spent a year on that team learning Kubernetes in a position they made for me that they called Customer Engineering, where I deep dove into Kubernetes from our client teams' perspectives so I could support them via onboarding help, office hours, and daily Q&A over Slack, while also being on-call for the the platform. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+After spending 4 years total at Nordstrom, I left for a consulting positon at Nortal where I've spent another 4 years. Its been a strange, interesting, and sometimes difficult setting. I've been on 5 different projects at 5 different companies there, including Amazon, Expedia, Motorola, T-Mobile, and a startup. At each project I purposefully pushed my career further into DevOps territory, getting Devoloper Associates and DevOps Professional certifications for AWS, 3 of the projects used Kubernetes, built pipelines in Gitlab, Travis CI, and Azure DevOps, wrote microservices in Java/Spring, Python/Django, and C#/Dotnet, and more. I've learned how to navigate difficult client (and internal) relationships, and have had great mentorship. There has been quite a lot of growth for me at Nortal.
+
+Over the last 6 months I've pushed myself to get better at Python, which has always secretly been my favorite language, despite often getting pushed into Java projects. I've been using it to automate just about everything, even where Bash may have been shorter and saner. I've been using the [Textual](https://textual.textualize.io/) project to create TUI's (Terminal User Interaces) and have been following it pretty closely. I created a little project I called [Avocet](https://github.com/JoshuaOliphant/avocet), which is a bookmark app that uses the [Raindrop API](raindrop.io). The folks at Textualize also created a nifty library that introspects Click apps called [Trogon](https://github.com/Textualize/trogon), which I started using and ended up writing my [first blog post about](https://world.hey.com/joshua.oliphant/python-automations-chatgpt-prompt-with-click-and-trogon-35e39ce1).
+
+Now, I've decided that I have to climb back down the hill and start learning AI Engineer, as described in this [Latent Space blog post](https://www.latent.space/p/ai-engineer). I've been working my way through some of the [DeepLearningAI](https://learn.deeplearning.ai/login) short courses, and trying to break into this area. It's been fun and interesting and exciting, and I feel that I have to regularly climb up and down the hills to learn new skill to keep myself moving forward and stay motivated. 
+
+Some other projects I'm excited about and keeping track of are [System Initiative](https://world.hey.com/joshua.oliphant) where they are trying to re-imagine DevOps, [Dapr](dapr.io) for building microservices faster, and [Dagger](dagger.io) for running and debugging CI/CD pipelines anywhere.
+
+- 📫 How to reach me: joshua.oliphant@hey.com, https://www.linkedin.com/in/joshuaoliphant/, https://world.hey.com/joshua.oliphant
+- ⚡ Fun fact: I've been sourdough bread backing since about 2019
