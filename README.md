@@ -12,5 +12,5 @@ Now, I've decided that I have to climb back down the hill and start learning AI 
 
 Some other projects I'm excited about and keeping track of are [System Initiative](https://world.hey.com/joshua.oliphant) where they are trying to re-imagine DevOps, [Dapr](dapr.io) for building microservices faster, and [Dagger](dagger.io) for running and debugging CI/CD pipelines anywhere.
 
-- 📫 How to reach me: joshua.oliphant@hey.com, https://www.linkedin.com/in/joshuaoliphant/, https://world.hey.com/joshua.oliphant
+- 📫 How to reach me: joshua.oliphant@hey.com, https://www.linkedin.com/in/joshuaoliphant/, https://joshuaoliphant.github.io/An-Oliphant-Never-Forgets/
 - ⚡ Fun fact: I've been sourdough bread backing since about 2019
