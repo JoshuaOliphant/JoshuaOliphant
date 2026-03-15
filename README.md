@@ -1,20 +1,78 @@
-### Hi there 👋
+# Hey, I'm Joshua 👋
 
-I am a generalist software engineer. I've written a lot of backend Java and Python services, DevOps pipelines and automations, Kubernetes deployments, and at my newest job as ServiceNow I am even getting to do some Puppet deployments to on-prem. I went back to school in 2012 at the ripe-ish age of 31 to get a BS in computer science, and I've gobbled up as much information as possible since then. 
+Senior software engineer with 10+ years across backend services, Kubernetes platforms, and distributed systems. I went back to school at 31, started at Nordstrom building Java microservices, and I've been hill-climbing ever since — backend → platform engineering → DevOps → and now I'm deep in the AI developer tooling space, building MCP servers and Claude Code plugins that other teams actually use.
 
-I started out at Nordstrom (2012), working on Java microservices. There's a section in the [DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/) about how our team led the DevOps transformation at Nordstrom. Basically, I've been into DevOps and microservices since I stepped out of college. Eventually, our team absorbed another team that were early adopters of Kubernetes, and when that part of our team graduated to being the platform team for all of Nordstrom, I happily followed. Recently, I listened to a [freeCodeCamp podcast episode](https://freecodecamp.libsyn.com/90-shawn-swyx-wang-from-dev-to-ai-founder) where, at one point, they talk about a hill climbing algorithm as a metaphor for the interviewee's career choices. That resonated with me because I felt like I was making that kind of choice when I switched to the Kubernetes team at Nordstrom. I had learned a lot about Java, the Spring Framework, and microservices, but then looked around and saw this Kubernetes thing, I new I had to be part of it. So I spent a year on that team learning Kubernetes in a position they made for me that they called Customer Engineering, where I deep dove into Kubernetes from our client teams' perspectives so I could support them via onboarding help, office hours, and daily Q&A over Slack, while also being on-call for the platform. 
+## What I'm Building
 
-After spending 4 years total at Nordstrom, I left for a consulting position at Nortal (2020-ish), where I spent another 4 years. It was a strange, interesting, and sometimes difficult setting. I was on 5 different projects at 5 different companies there, including Amazon, Expedia, Motorola, T-Mobile, and a startup. At each project, I purposefully pushed my career further into DevOps territory, getting Developer Associates and DevOps Professional certifications for AWS, 3 of the projects used Kubernetes, built pipelines in GitLab, Travis CI, and Azure DevOps, wrote microservices in Java/Spring, Python/Django, and C#/Dotnet, and more. I've learned how to navigate difficult client relationships and have had great mentorship. I grew quite a lot at Nortal.
+### [Claude Code Plugin Marketplace](https://github.com/JoshuaOliphant/claude-plugins)
+> A plugin ecosystem for Claude Code — 6 published plugins for autonomous SDLC, knowledge management, spaced repetition, and resume optimization.
 
-I recently joined ServiceNow (in the summer of 2024), as a Senior Systems Engineer. Our slice of the systems engineering organization focuses on mail and messaging, and for uses Kafka and RabbitMQ for messaging. I'm currently working on rewriting and old Djanjo application with FastAPI.
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/claude-plugins?style=flat-square)
 
-I've pushed myself to get better at Python, which has always secretly been my favorite language, despite often getting pushed into Java projects. I've been using it to automate just about everything, even where Bash may have been shorter and saner. I created a little project called [Avocet](https://github.com/JoshuaOliphant/avocet), which is a bookmark app that uses the [Raindrop API](raindrop.io), with a TUI using [Textual](https://textual.textualize.io/). The folks at Textualize also created a nifty library that introspects Click apps called [Trogon](https://github.com/Textualize/trogon), which I started using to transform my Click scripts into TUI's and ended up writing my [first blog post about](https://world.hey.com/joshua.oliphant/python-automations-chatgpt-prompt-with-click-and-trogon-35e39ce1).
+### [Brooklet](https://github.com/JoshuaOliphant/brooklet)
+> The SQLite of event streaming — consumer coordination on top of JSONL files. No brokers, no servers, just files.
 
-Now, I've decided that I have to climb back down the hill and start learning AI engineering, as described in this [Latent Space blog post](https://www.latent.space/p/ai-engineer). I've been working my way through some of the [DeepLearningAI](https://learn.deeplearning.ai/login) short courses and trying to break into this area. It's been fun, interesting, and exciting, and I feel that I have to regularly climb up and down the hills to learn new skills to keep myself moving forward and stay motivated.
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/brooklet?style=flat-square)
 
-In between Nortal and ServiceNow, when I got laid off, I built a [resume customizer](https://github.com/JoshuaOliphant/grosbeak). I was constantly needing to customize resumes for all of the many different places I was applying to, and I was learning so much about AI Engineering, so I put the two together. I initially wrote it with CrewAI, but it was very slow and the results were very inconsistent. So I completely rewrote it myself, with my own AI agents, and it was quick and reliable.
+### [Herald](https://github.com/JoshuaOliphant/herald)
+> A self-hosted Telegram gateway to Claude Code — chat with your second brain from your phone.
 
-Some other projects I'm excited about and keeping track of are [System Initiative](https://world.hey.com/joshua.oliphant), where they are trying to re-imagine DevOps, [Dapr](dapr.io) for building microservices faster, [Dagger](dagger.io) for running and debugging CI/CD pipelines anywhere, [Github Spark](https://spark.githubnext.com) which I got early access to, and [GenAIScript](https://microsoft.github.io/genaiscript/) from Microsoft which is a Javascript tool for easily writing AI automations.
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/herald?style=flat-square)
 
-- 📫 How to reach me: joshua.oliphant@hey.com, https://www.linkedin.com/in/joshuaoliphant/, https://anoliphantneverforgets.com/
-- ⚡ Fun fact: I've been sourdough bread backing since about 2019
+### [Jean Claude](https://github.com/JoshuaOliphant/jean-claude)
+> CLI for programmatic Claude Code orchestration — multi-phase AI workflows, git worktree isolation, real-time telemetry.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/jean-claude?style=flat-square)
+
+### [ForkHub](https://github.com/JoshuaOliphant/forkhub)
+> Monitor GitHub fork constellations with AI-powered analysis. Library-first with Protocol-based plugins.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/forkhub?style=flat-square)
+
+### [Vault Recommender](https://github.com/JoshuaOliphant/vault-recommender)
+> Semantic recommendation engine for Obsidian vaults — embeddings + wiki-link graph boosting, with an MCP server for Claude Code.
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/vault-recommender?style=flat-square)
+
+## Tech I Work With
+
+**Languages & Frameworks**
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+
+**Infrastructure**
+
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/-Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+
+**Data & Messaging**
+
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+**AI & Developer Tools**
+
+![Claude](https://img.shields.io/badge/-Claude-D4A574?style=flat-square&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/-MCP-7B42BC?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/-GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+
+## The Arc
+
+I went back to school at 31, got a CS degree from Seattle University in 2016, and started at Nordstrom building Java microservices and Kafka pipelines. There's a section in the [DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/) about how our team led the DevOps transformation there. I've been hill-climbing since — when I saw Kubernetes taking off, I jumped to the platform team. Spent 4 years consulting through Amazon, T-Mobile, Expedia, and a startup, then landed at ServiceNow where I'm building AI developer tools and migrating mail infrastructure to Kubernetes. The through-line is always the same: find the next interesting problem and go learn it.
+
+## Get in Touch
+
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joshua.oliphant@hey.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/joshuaoliphant)
+[![Blog](https://img.shields.io/badge/-Blog-FF5722?style=flat-square&logo=hashnode&logoColor=white)](https://anoliphantneverforgets.com)
+
+---
+
+⚡ Fun fact: I've been baking sourdough bread since about 2019
