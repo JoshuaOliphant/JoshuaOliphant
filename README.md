@@ -19,10 +19,10 @@ Senior software engineer with 10+ years across backend services, Kubernetes plat
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/herald?style=flat-square)
 
-### [Jean Claude](https://github.com/JoshuaOliphant/jean-claude)
-> CLI for programmatic Claude Code orchestration — multi-phase AI workflows, git worktree isolation, real-time telemetry.
+### [Reading Tracker](https://github.com/JoshuaOliphant/reading-tracker)
+> What if AI agents were the business logic? Hexagonal architecture where agents generate HTMX UI through ports-and-adapters, with a full eval suite following Anthropic's best practices.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/jean-claude?style=flat-square)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/reading-tracker?style=flat-square)
 
 ### [ForkHub](https://github.com/JoshuaOliphant/forkhub)
 > Monitor GitHub fork constellations with AI-powered analysis. Library-first with Protocol-based plugins.
