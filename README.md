@@ -1,6 +1,6 @@
 # Hey, I'm Joshua 👋
 
-I'm a backend engineer with ten years of building services on Kafka, Kubernetes, and distributed systems. I went back to school at 31, started at Nordstrom building Java microservices, and kept moving toward the next interesting problem: backend, then platform engineering, then DevOps. Now most of what I build is AI developer tooling: Claude Code plugins, MCP servers, and the small Python libraries underneath them. I write about what I learn at [An Oliphant Never Forgets](https://anoliphantneverforgets.com).
+I'm a senior backend engineer with ten years of building services on Kafka, Kubernetes, and distributed systems. I went back to school at 31, started at Nordstrom building Java microservices, and kept moving toward the next interesting problem: backend, then platform engineering, then DevOps. Now most of what I build is AI developer tooling: Claude Code plugins, MCP servers, and the small Python libraries underneath them. I write about what I learn at [An Oliphant Never Forgets](https://anoliphantneverforgets.com).
 
 ## What I'm Building
 
@@ -11,13 +11,13 @@ I'm a backend engineer with ten years of building services on Kafka, Kubernetes,
 > The SQLite of event streaming. Offsets, consumer groups, live tailing, and topic discovery on top of the JSONL files that Claude Code, structlog, and OpenTelemetry already write. No broker, no server. `pip install brooklet`
 
 ### [ForkHub](https://github.com/JoshuaOliphant/forkhub)
-> Watches the forks around your GitHub repos, has a Claude agent classify what changed and why, and sends you a digest. `uv tool install forkhub`
+> Watches the forks around your GitHub repos, has a Claude agent classify what changed and why, and sends you a digest. `uv tool install 'forkhub[claude]'`
 
 ### [vault-recommender](https://github.com/JoshuaOliphant/vault-recommender)
 > Semantic recommendations for an Obsidian vault: sentence-transformer embeddings plus wiki-link graph boosting, served to Claude Code over MCP.
 
 ### [Claude Code Plugin Marketplace](https://github.com/JoshuaOliphant/claude-plugins)
-> Eight plugins for spaced repetition, cross-session memory, learning, and software-development workflows.
+> Eight plugins for spaced repetition, cross-session memory, learning, observability, and software-development workflows.
 
 ### [Reading Tracker](https://github.com/JoshuaOliphant/reading-tracker)
 > What if AI agents were the business logic? Hexagonal architecture where agents generate the HTMX UI through ports and adapters, with an eval suite.
@@ -57,7 +57,7 @@ I went back to school at 31 and finished a CS degree at Seattle University in 20
 
 ## Get in Touch
 
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=maildotru&logoColor=white)](mailto:joshua@anoliphantneverforgets.com)
+[![Email](https://img.shields.io/badge/-Email-555555?style=flat-square)](mailto:joshua@anoliphantneverforgets.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/joshuaoliphant)
 [![Blog](https://img.shields.io/badge/-Blog-FF5722?style=flat-square&logo=rss&logoColor=white)](https://anoliphantneverforgets.com)
 
