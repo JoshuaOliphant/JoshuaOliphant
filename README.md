@@ -1,38 +1,26 @@
 # Hey, I'm Joshua 👋
 
-Senior software engineer with 10+ years across backend services, Kubernetes platforms, and distributed systems. I went back to school at 31, started at Nordstrom building Java microservices, and I've been hill-climbing ever since — backend → platform engineering → DevOps → and now I'm deep in the AI developer tooling space, building MCP servers and Claude Code plugins that other teams actually use.
+I'm a senior backend engineer with ten years of building services on Kafka, Kubernetes, and distributed systems. I went back to school at 31, started at Nordstrom building Java microservices, and kept moving toward the next interesting problem: backend, then platform engineering, then DevOps. Now most of what I build is AI developer tooling: Claude Code plugins, MCP servers, and the small Python libraries underneath them. I write about what I learn at [An Oliphant Never Forgets](https://anoliphantneverforgets.com).
 
 ## What I'm Building
 
-### [Claude Code Plugin Marketplace](https://github.com/JoshuaOliphant/claude-plugins)
-> A plugin ecosystem for Claude Code — 6 published plugins for autonomous SDLC, knowledge management, spaced repetition, and resume optimization.
+### [compost](https://github.com/JoshuaOliphant/compost)
+> One software-engineering workflow for Claude Code: spec, slice, implement, finish. I built it by breaking down the best public skill collections and rebuilding them into one. A pinned manifest records which upstream fed which skill, and the `turn` skill checks those upstreams for changes worth working in.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/claude-plugins?style=flat-square)
-
-### [Brooklet](https://github.com/JoshuaOliphant/brooklet)
-> The SQLite of event streaming — consumer coordination on top of JSONL files. No brokers, no servers, just files.
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/brooklet?style=flat-square)
-
-### [Herald](https://github.com/JoshuaOliphant/herald)
-> A self-hosted Telegram gateway to Claude Code — chat with your second brain from your phone.
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/herald?style=flat-square)
-
-### [Reading Tracker](https://github.com/JoshuaOliphant/reading-tracker)
-> What if AI agents were the business logic? Hexagonal architecture where agents generate HTMX UI through ports-and-adapters, with a full eval suite following Anthropic's best practices.
-
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/reading-tracker?style=flat-square)
+### [brooklet](https://github.com/JoshuaOliphant/brooklet)
+> The SQLite of event streaming. Offsets, consumer groups, live tailing, and topic discovery on top of the JSONL files that Claude Code, structlog, and OpenTelemetry already write. No broker, no server. `pip install brooklet`
 
 ### [ForkHub](https://github.com/JoshuaOliphant/forkhub)
-> Monitor GitHub fork constellations with AI-powered analysis. Library-first with Protocol-based plugins.
+> Watches the forks around your GitHub repos, has a Claude agent classify what changed and why, and sends you a digest. `uv tool install 'forkhub[claude]'`
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/forkhub?style=flat-square)
+### [vault-recommender](https://github.com/JoshuaOliphant/vault-recommender)
+> Semantic recommendations for an Obsidian vault: sentence-transformer embeddings plus wiki-link graph boosting, served to Claude Code over MCP.
 
-### [Vault Recommender](https://github.com/JoshuaOliphant/vault-recommender)
-> Semantic recommendation engine for Obsidian vaults — embeddings + wiki-link graph boosting, with an MCP server for Claude Code.
+### [Claude Code Plugin Marketplace](https://github.com/JoshuaOliphant/claude-plugins)
+> Eight plugins for spaced repetition, cross-session memory, learning, observability, and software-development workflows.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Stars](https://img.shields.io/github/stars/JoshuaOliphant/vault-recommender?style=flat-square)
+### [Reading Tracker](https://github.com/JoshuaOliphant/reading-tracker)
+> What if AI agents were the business logic? Hexagonal architecture where agents generate the HTMX UI through ports and adapters, with an eval suite.
 
 ## Tech I Work With
 
@@ -65,14 +53,14 @@ Senior software engineer with 10+ years across backend services, Kubernetes plat
 
 ## The Arc
 
-I went back to school at 31, got a CS degree from Seattle University in 2016, and started at Nordstrom building Java microservices and Kafka pipelines. There's a section in the [DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/) about how our team led the DevOps transformation there. I've been hill-climbing since — when I saw Kubernetes taking off, I jumped to the platform team. Spent 4 years consulting through Amazon, T-Mobile, Expedia, and a startup, then landed at ServiceNow where I'm building AI developer tools and migrating mail infrastructure to Kubernetes. The through-line is always the same: find the next interesting problem and go learn it.
+I went back to school at 31 and finished a CS degree at Seattle University in 2016. I started at Nordstrom building Java microservices and Kafka pipelines; there's a section in the [DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/) about how our team led the DevOps transformation there. When Kubernetes took off, I moved to the platform team. I spent four years consulting with Amazon, T-Mobile, Expedia, and a startup, and since 2024 I've worked at ServiceNow on mail and messaging infrastructure running on Kubernetes. The through-line: find the next interesting problem and go learn it.
 
 ## Get in Touch
 
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:joshua.oliphant@hey.com)
+[![Email](https://img.shields.io/badge/-Email-555555?style=flat-square)](mailto:joshua@anoliphantneverforgets.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/joshuaoliphant)
-[![Blog](https://img.shields.io/badge/-Blog-FF5722?style=flat-square&logo=hashnode&logoColor=white)](https://anoliphantneverforgets.com)
+[![Blog](https://img.shields.io/badge/-Blog-FF5722?style=flat-square&logo=rss&logoColor=white)](https://anoliphantneverforgets.com)
 
 ---
 
-⚡ Fun fact: I've been baking sourdough bread since about 2019
+⚡ Fun fact: I've been baking sourdough since about 2019.
